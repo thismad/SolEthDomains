@@ -1,0 +1,146 @@
+<mxfile host="Electron" modified="2023-12-25T07:26:15.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.2 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="gILhEjX5ZM4Ls-giiB5P" version="22.0.2" type="device" pages="2">
+  <diagram name="Brainstorm" id="1XpnbwAyf5-bMILX1g5m">
+    <mxGraphModel dx="1242" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-2" target="2c_Bomnz5eRw9pgPyRpI-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-2" value="Sol Domain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-3" target="2c_Bomnz5eRw9pgPyRpI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-3" value="ETH Domain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-15" target="2c_Bomnz5eRw9pgPyRpI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-15" target="2c_Bomnz5eRw9pgPyRpI-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-15" value="Check sold prices &amp;gt;2000$" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-17" target="2c_Bomnz5eRw9pgPyRpI-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="360" />
+              <mxPoint x="750" y="360" />
+              <mxPoint x="750" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-17" value="Make a DF of all ENS sold &amp;gt;2000$ on OS" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-19" value="Use OS endpoints&lt;br&gt;https://docs.opensea.io/reference/list_events_by_collection&lt;br&gt;Pagination done via pages iteration" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="190" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-36" value="QuickNode API with SNS endpoints" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-38" value="Magic Eden API,&lt;br&gt;get all listings" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-52" value="Merge listings from SOL to ETH prices in a DF to compare ROI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-58" target="2c_Bomnz5eRw9pgPyRpI-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="450" />
+              <mxPoint x="498" y="450" />
+              <mxPoint x="498" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-58" target="2c_Bomnz5eRw9pgPyRpI-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-58" value="Check availability of corresponding SOL domain (add 20$ listing if not registered)" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="620" y="440" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-59" target="2c_Bomnz5eRw9pgPyRpI-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-59">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-59" target="2c_Bomnz5eRw9pgPyRpI-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-59" value="Get all SOL listings" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="430" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-62" target="2c_Bomnz5eRw9pgPyRpI-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-62" value="Merge listings on ETH listings" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="430" y="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-64" target="2c_Bomnz5eRw9pgPyRpI-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-64" value="For missing listings in SOL check if not registered" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2c_Bomnz5eRw9pgPyRpI-71" target="2c_Bomnz5eRw9pgPyRpI-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2c_Bomnz5eRw9pgPyRpI-71" value="Get SOL historical price" style="rounded=0;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="430" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5TCcElhrobglTSHe_J8k" name="API mapping">
+    <mxGraphModel dx="1242" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-1" value="&lt;h1&gt;API Usage&lt;/h1&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XfkQewiWObfVw9V4Qrq0-4" target="XfkQewiWObfVw9V4Qrq0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-4" value="ETH&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XfkQewiWObfVw9V4Qrq0-5" target="XfkQewiWObfVw9V4Qrq0-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XfkQewiWObfVw9V4Qrq0-5" target="XfkQewiWObfVw9V4Qrq0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XfkQewiWObfVw9V4Qrq0-5" target="XfkQewiWObfVw9V4Qrq0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-5" value="SOL" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-6" value="Reservoir&lt;br&gt;- 250kr/month" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-9" value="Bitmex&lt;br&gt;Unlimited&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-11" value="MagicEden&lt;br&gt;120r/mn" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XfkQewiWObfVw9V4Qrq0-13" value="QuickNode (bonfida)&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
